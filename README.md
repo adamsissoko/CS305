@@ -1,6 +1,6 @@
 
-# Secure Financial Software Development for Artemis Financial 
-## - Adam Sissoko
+<h1 align = "center"> Secure Financial Software Development for Artemis Financial </h1>
+<h2 align = "center"> Adam Sissoko </h2>
 
 ---
 
