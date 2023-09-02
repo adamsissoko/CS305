@@ -1,53 +1,66 @@
 
-## Secure Financial Software Development for Artemis Financial - Adam Sissoko
+# Secure Financial Software Development for Artemis Financial 
+## - Adam Sissoko
 
+---
 
+### Project Overview
+In a strategic, six-month-long engagement with Artemis Financial—a simulated consulting firm specializing in advanced financial technology solutions—I served as the lead developer tasked with overhauling and securing their legacy financial planning software. The mission-critical objectives included enhancing security protocols and modernizing both the system architecture and user interface, all while maintaining a focus on scalability and long-term maintainability.
 
-#### Project Overview
-In a strategic, six-month long engagement with Artemis Financial, a simulated consulting firm specializing in advanced financial technology solutions, I was designated as the lead developer to overhaul and secure their antiquated financial planning software. The primary objectives were to enhance security measures significantly and modernize the system architecture and user interface, while also focusing on scalability and maintainability.
+---
 
-#### Background
-Artemis Financial's legacy system had been serving its purpose but was rife with outdated technologies and poor security measures, making it highly vulnerable to modern threats. Their end goal was to provide their clients with a secure, efficient, and state-of-the-art financial planning tool.
+### Background
+Artemis Financial's existing system, while functional, was plagued with outdated technologies and inadequate security measures. This made it a prime target for modern cyber threats. The client’s vision was to elevate their software into a secure, efficient, and cutting-edge financial planning tool.
 
-#### Security Analysis and Mitigation
+---
 
-##### Methodology
-Before diving into the development phase, I initiated a multi-step security assessment process that began with a detailed threat modeling exercise. This was followed by static and dynamic code analysis using tools like Checkmarx and SonarQube, as well as manual reviews to identify weak security postures in the existing codebase.
+### Security Analysis and Mitigation
 
-##### Strategies Adopted
-To offer the highest level of security, I implemented various cryptography algorithms such as AES-256 and RSA for data encryption and integrity checks. All identified vulnerabilities were systematically categorized and prioritized based on the Common Vulnerability Scoring System (CVSS), leading to a well-organized, phase-wise mitigation roadmap.
+**Methodology**  
+Engaging in a comprehensive multi-step security assessment, my first task was conducting a detailed threat modeling exercise. I then utilized security analysis tools like Checkmarx and SonarQube in addition to manual code reviews, aiming to root out weak security postures in the existing architecture.
 
-##### Compliance Measures
-Additionally, I ensured that the software was in compliance with relevant financial industry standards like PCI DSS and ISO/IEC 27001, integrating multiple layers of security including firewalls, intrusion detection systems, and two-factor authentication.
+**Strategies Adopted**  
+To achieve state-of-the-art security, I integrated various cryptographic algorithms—such as AES-256 and RSA—for robust data encryption and integrity checks. A systematic approach was followed to categorize and prioritize vulnerabilities based on their CVSS scores, resulting in a well-defined, phase-wise mitigation plan.
 
-#### Quality Assurance and Testing
+**Compliance Measures**  
+Further, I ensured the software met critical financial industry compliance standards such as PCI DSS and ISO/IEC 27001, integrating multi-layered security measures including firewalls, intrusion detection systems, and two-factor authentication protocols.
 
-##### Testing Protocols
-To guarantee that the newly implemented security measures were up to the mark, I used specialized security testing tools like OWASP ZAP, Burp Suite, and custom scripts to conduct penetration tests, SQL injection tests, and more. Post each development sprint, the application was rigorously tested for any potential new vulnerabilities.
+---
 
-##### Post-Deployment Monitoring
-Even after the software was deployed, ongoing monitoring and security audits were planned to ensure the system remained secure and effective.
+### Quality Assurance and Testing
 
-#### Functional and Secure Development
+**Testing Protocols**  
+Utilizing specialized security testing tools like OWASP ZAP and Burp Suite, I performed exhaustive penetration tests, SQL injection tests, and more. The software was rigorously tested after each development sprint to catch and mitigate any new vulnerabilities.
 
-##### Programming Practices
-I leveraged best practices in modular and object-oriented programming using languages like Python and Java, following SOLID principles for greater maintainability and future scalability. Code was meticulously commented, and version control systems like Git were employed to manage the codebase efficiently.
+**Post-Deployment Monitoring**  
+A plan was put in place for ongoing monitoring and regular security audits to ensure the long-term security and efficacy of the deployed software.
 
-##### Validation Techniques
-I deployed automated testing suites using JUnit for backend and Selenium for frontend tests, alongside manual testing sessions. Code coverage was kept above 95% throughout the project, ensuring an optimal balance between functional and security requirements.
+---
 
-#### Tools and Resources
-- **Automated Testing Software**: For continuous integration and continuous testing.
-- **Advanced Cryptographic Libraries**: Integrated to protect both data-at-rest and data-in-transit.
-- **Version Control Systems**: Git was employed for code versioning and collaboration.
+### Functional and Secure Development
 
-#### Deliverables for Future Employers
-This project serves as a benchmark in secure and functional software development, and I can provide the following deliverables:
+**Programming Practices**  
+Best practices in modular and object-oriented programming were employed, using languages such as Python and Java. The SOLID principles were followed rigorously for better code maintainability and future scalability.
 
-- **Codebase**: A fully documented, modular, and secure repository maintained on GitHub.
-- **Security Assessment Report**: A granular-level report detailing vulnerabilities discovered, their impact, and the mitigations applied.
-- **Project Documentation**: This includes an in-depth user manual, system architecture diagrams, and a performance metrics report.
+**Validation Techniques**  
+A combination of automated testing suites—JUnit for backend and Selenium for frontend—was used along with manual testing sessions. I ensured that code coverage remained above 95%, striking an optimal balance between functionality and security.
 
-By adopting a holistic approach, focusing equally on robust functionality and ironclad security, this project stands as a testament to balanced and effective software development, in strict adherence with industry best practices and standards.
+---
+
+### Tools and Resources
+- **Automated Testing Software**: Employed for continuous integration and continuous testing.
+- **Advanced Cryptographic Libraries**: Integrated for robust data encryption.
+- **Version Control Systems**: Git was used for effective code versioning and team collaboration.
+
+---
+
+### Deliverables for Future Employers
+- **Codebase**: A thoroughly documented, modular, and secure code repository maintained on GitHub.
+- **Security Assessment Report**: A detailed vulnerability report outlining the discovered risks, their impact, and the applied mitigations.
+- **Project Documentation**: Including an in-depth user manual, system architecture diagrams, and performance metrics reports.
+
+---
+
+By using a balanced approach to software development, this project sets a strong example for the industry. We made sure to focus on both strong functionality and top-notch security, recognizing that both are critical for the success of any financial software. The project follows industry best practices and standards closely, showing that it's possible to build software that's both powerful and secure. This experience has given me a comprehensive understanding of how to create software that meets current needs while being prepared for future challenges.
 
 Thank you for your time and consideration.
